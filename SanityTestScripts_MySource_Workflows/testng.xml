@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sanity Test Scripts" parallel="classes" thread-count="10"
+	verbose="10">
+	<test name="MySource - Sanity Test Scripts">
+		<classes>			
+		  <class name="testscripts.Test_MySource_Workflow_CWFWorkflowForm" />  
+		<!-- 
+			<class name="testscripts.Test_MySource_Workflow_CWFWorkflowForm" />  
+			<class name="testscripts.Test_MySource_Workflow_CWFWorkflowForm_AlternateURL" />  
+			<class name="testscripts.Test_MySource_Workflow_CWFWorkflowForm_AlternateURL1" />  
+			<class name="testscripts.Test_MySource_Workflow_FamilyStatusChangeForm" />			
+			<class name="testscripts.Test_MySource_WorkFlow_WorkFlowInitiate" />  
+			<class name="testscripts.Test_MySource_Workflow_WorkflowWorklist" />  
+			<class name="testscripts.Test_MySource_WorkFlow_WorkflowWorkList_AlternateURL" />  
+			<class name="testscripts.Test_MySource_WorkFlows_WorkflowFYINotifications" />  	  
+			
+			 -->
+		</classes>
+	</test>
+
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+	</listeners>
+
+</suite>
