@@ -17,7 +17,7 @@
             <id>MSJTST2</id>
             <properties>
                 <selenium.target.browser>firefox</selenium.target.browser>
-                <selenium.server.host>ithrlab3</selenium.server.host>
+                <selenium.server.host>vakula</selenium.server.host>
                 <selenium.target.host>https://mysourcetst2.qualcomm.com</selenium.target.host>
             </properties>
         </profile>
@@ -25,7 +25,7 @@
             <id>MSJQA</id>
             <properties>
                 <selenium.target.browser>firefox</selenium.target.browser>
-                <selenium.server.host>ithrlab3</selenium.server.host>
+                <selenium.server.host>vakula</selenium.server.host>
                 <selenium.target.host>https://mysourceqa.qualcomm.com</selenium.target.host>
             </properties>
         </profile>
@@ -33,7 +33,7 @@
             <id>MSJSBX</id>
             <properties>
                 <selenium.target.browser>firefox</selenium.target.browser>
-                <selenium.server.host>ithrlab4</selenium.server.host>
+                <selenium.server.host>vakula</selenium.server.host>
                 <selenium.target.host>https://mysourcesbx.qualcomm.com</selenium.target.host>
             </properties>
         </profile>
@@ -41,7 +41,7 @@
             <id>MSJDEV</id>
             <properties>
                 <selenium.target.browser>firefox</selenium.target.browser>
-                <selenium.server.host>ithrlab4</selenium.server.host>
+                <selenium.server.host>vakula</selenium.server.host>
                 <selenium.target.host>https://mysourcedev.qualcomm.com</selenium.target.host>
             </properties>
         </profile>
@@ -49,7 +49,7 @@
             <id>MSJDEV2</id>
             <properties>
                 <selenium.target.browser>firefox</selenium.target.browser>
-                <selenium.server.host>ithrlab4</selenium.server.host>
+                <selenium.server.host>vakula</selenium.server.host>
                 <selenium.target.host>https://mysourcedev2.qualcomm.com</selenium.target.host>
             </properties>
         </profile>
@@ -57,7 +57,7 @@
             <id>MSJSTG</id>
             <properties>
                 <selenium.target.browser>firefox</selenium.target.browser>
-                <selenium.server.host>ithrlab4</selenium.server.host>
+                <selenium.server.host>vakula</selenium.server.host>
                 <selenium.target.host>https://mysourcestage.qualcomm.com</selenium.target.host>
             </properties>
         </profile>
@@ -65,7 +65,7 @@
             <id>MSJAWSTST</id>
             <properties>
                 <selenium.target.browser>firefox</selenium.target.browser>
-                <selenium.server.host>ithrlab4</selenium.server.host>
+                <selenium.server.host>vakula</selenium.server.host>
                 <selenium.target.host>https://mysourcetst.hr.aws.qualcomm.com</selenium.target.host>
             </properties>
         </profile>
@@ -73,7 +73,7 @@
             <id>MSJAWSDEV</id>
             <properties>
              <selenium.target.browser>firefox</selenium.target.browser>
-                <selenium.server.host>ithrlab3</selenium.server.host>
+                <selenium.server.host>vakula</selenium.server.host>
                 <selenium.target.host>https://mysourcedev.hr.aws.qualcomm.com</selenium.target.host>
             </properties>
         </profile>
